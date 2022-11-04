@@ -25,7 +25,6 @@ else if(b>c){
 }
 else return c;   
 }
-//Result
 alert(maxOfThree(4,6,3));
 
 //3.Write a function isVowel() that takes a character (i.e. a string of length 1) //and returns true if it is a vowel, false otherwise.
