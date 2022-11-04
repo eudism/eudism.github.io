@@ -9,7 +9,6 @@ function max(x,y){
     else 
          return "equal";   
 }
-//Result
 alert(max(4,8));
 
 //2.Define a function maxOfThree() that takes three numbers as arguments and returns //the largest of them.
