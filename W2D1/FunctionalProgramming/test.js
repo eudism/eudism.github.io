@@ -18,7 +18,7 @@ describe ("reverse",function(){
 });
 
 describe ("filterLongWords",function(){
-          it("it takes an inter of strings", function(){
+          it("it takes an array of strings and returns the ones whose length is greater than the given integer", function(){
     assert.deepEqual(["Eudis","IvanS"],filterLongWords(["Eudis","Eric","IvanS"],4));});
 
 });
