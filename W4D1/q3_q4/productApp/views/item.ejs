@@ -1,0 +1,22 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Products</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body id="selected">
+    <h2><%=title%></h2>
+    <% shoppingCart.forEach(item=>{%>
+      <div id="carts">
+          
+          <h2><%= item.name %></h2>
+          <h3>$<%= item.price %></h3>
+          <h5><%= item.description %></h5>
+      </div>
+      <% })%>
+    <%- include footer%>
+  </body>
+  
+</html>
